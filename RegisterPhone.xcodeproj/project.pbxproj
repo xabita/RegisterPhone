@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		260B0C4C1C09791E006D3998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B0C4B1C09791E006D3998 /* main.m */; };
 		260B0C4F1C09791E006D3998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B0C4E1C09791E006D3998 /* AppDelegate.m */; };
-		260B0C521C09791E006D3998 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B0C511C09791E006D3998 /* ViewController.m */; };
+		260B0C521C09791E006D3998 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B0C511C09791E006D3998 /* Register.m */; };
 		260B0C551C09791E006D3998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260B0C531C09791E006D3998 /* Main.storyboard */; };
 		260B0C571C09791E006D3998 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260B0C561C09791E006D3998 /* Images.xcassets */; };
 		260B0C5A1C09791E006D3998 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 260B0C581C09791E006D3998 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		260B0C4B1C09791E006D3998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		260B0C4D1C09791E006D3998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		260B0C4E1C09791E006D3998 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		260B0C501C09791E006D3998 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		260B0C511C09791E006D3998 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		260B0C501C09791E006D3998 /* Register.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		260B0C511C09791E006D3998 /* Register.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
 		260B0C541C09791E006D3998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		260B0C561C09791E006D3998 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		260B0C591C09791E006D3998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,10 +81,10 @@
 		260B0C481C09791E006D3998 /* RegisterPhone */ = {
 			isa = PBXGroup;
 			children = (
+				260B0C701C097A5D006D3998 /* User */,
+				260B0C6F1C097A58006D3998 /* Main */,
 				260B0C4D1C09791E006D3998 /* AppDelegate.h */,
 				260B0C4E1C09791E006D3998 /* AppDelegate.m */,
-				260B0C501C09791E006D3998 /* ViewController.h */,
-				260B0C511C09791E006D3998 /* ViewController.m */,
 				260B0C531C09791E006D3998 /* Main.storyboard */,
 				260B0C561C09791E006D3998 /* Images.xcassets */,
 				260B0C581C09791E006D3998 /* LaunchScreen.xib */,
@@ -117,6 +117,22 @@
 				260B0C641C09791E006D3998 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		260B0C6F1C097A58006D3998 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		260B0C701C097A5D006D3998 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				260B0C501C09791E006D3998 /* Register.h */,
+				260B0C511C09791E006D3998 /* Register.m */,
+			);
+			name = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260B0C521C09791E006D3998 /* ViewController.m in Sources */,
+				260B0C521C09791E006D3998 /* Register.m in Sources */,
 				260B0C4F1C09791E006D3998 /* AppDelegate.m in Sources */,
 				260B0C4C1C09791E006D3998 /* main.m in Sources */,
 			);
